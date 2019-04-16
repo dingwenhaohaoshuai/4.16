@@ -1,0 +1,60 @@
+@import "_mixin.scss";
+@import "common.scss";
+.wrapper {
+    width: 100%;
+    height: 100%;
+    // background: skyblue;
+    overflow: hidden;
+    font-size: px2rem(16px)
+}
+
+.header {
+    margin-top: px2rem(116px);
+}
+
+input {
+    margin-top: px2rem(21px);
+    width: px2rem(300px);
+    height: px2rem(44px);
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #444;
+    margin-left: px2rem(21px);
+}
+
+.le {
+    float: left
+}
+
+span {
+    margin: px2rem(9px);
+}
+
+.ri {
+    margin-left: px2rem(137px);
+}
+
+button {
+    margin: px2rem(16px);
+    width: px2rem(300px);
+    height: px2rem(44px);
+    text-align: center;
+    line-height: px2rem(44px);
+    background: skyblue;
+    color: #fff;
+    border: none;
+}
+
+.main h6 {
+    text-align: center;
+}
+
+.main div img {
+    margin-left: px2rem(64px);
+    margin-top: px2rem(16px);
+}
+
+.footer div {
+    margin-left: px2rem(64px);
+    margin-top: px2rem(16px);
+}
